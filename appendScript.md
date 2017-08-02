@@ -6,10 +6,10 @@
    $("body").append("<script src='script.js'></script>");
 ```
 
-* 本地chrome浏览器使用`jquery append script`报错
+* 本地chrome浏览器使用`jquery append script`报错  
 __XMLHttpRequest cannot load file:///XXX. Cross origin requests are only supported for protocolschemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.__
 
-* 放到空间里测试，代码可以执行但是在`chrome`和`firefox`浏览器都会提示警告 
+* 放到空间里测试，代码可以执行但是在`chrome`和`firefox`浏览器都会提示警告  
 __Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimentaleffects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.__
 
 #### 原生测试
