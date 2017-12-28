@@ -14,7 +14,7 @@ x; //2
 ```javascript
 let x = 1;
 let foo = (x, y = () => x = 2) = {
-  let x = 3;
+  var x = 3;
   y();
   console.log(x);
 };
