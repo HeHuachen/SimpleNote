@@ -27,6 +27,6 @@ function padLeftZero(str) {
 // example
 
 let date = new Date();
-console.log(formatDate(date, 'yyyy-MM-dd hh:mm');
+console.log(formatDate(date, 'yyyy-MM-dd hh:mm'));
 
 ```
